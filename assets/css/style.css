@@ -2,6 +2,15 @@ p {
     color: white;
 }
 
+.projectImg {
+    width: 100%;
+}
+
+.border {
+    border-style: solid;
+    border-color: black;
+}
+
 .name {
    font-weight: bold;
    font-size: 2rem; 
