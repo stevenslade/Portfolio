@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Portfolio - Ben Slinde</title>
 </head>
 <body>
+    <nav>
+        <div class="nav-wrapper ">
+          <a href="#" class="brand-logo left">Ben Slinde</a>
+          <!-- "hide-on-small-and-down" - remove this class from the ul tag, it hides the links on a small screen -->
+          <ul id="nav-mobile" class="right">
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
     
+      <ul class="sidenav right" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
 
+
+      <!-- This was supposeed to collapse my links in the event of small screen size but its not working -->
+      <!-- <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo left">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul> -->
 
 
 
@@ -22,6 +63,7 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <!-- My script is commented out until I need it -->
+    <!-- <script src="./assets/js/script.js"></script> -->
 </body>
 </html>
