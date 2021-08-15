@@ -8,7 +8,7 @@ p {
 }
 
 body {
-    background-color: #01579b;
+    background-color: #000080;
 } 
 
 .cardbackground {
@@ -24,3 +24,35 @@ body {
     padding-top: 5rem;
 }
 
+#aboutMeImg {
+    border-radius: 8px;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 5px 5px;
+    margin:5%;
+}
+
+.hrStyle {
+    width:50%;
+    text-align:center;
+    margin-left:10
+
+}
+
+#recentSkills {
+    color:skyblue;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutMeImg {
+      max-width: 200px;
+    }
+  }
+
+
+@media only screen and (max-width: 480px) {
+    #aboutMeImg {
+      max-width: 150px;
+    }
+  }
