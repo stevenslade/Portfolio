@@ -1,3 +1,7 @@
+p {
+    color: white;
+}
+
 .name {
    font-weight: bold;
    font-size: 2rem; 
@@ -6,4 +10,17 @@
 body {
     background-color: #01579b;
 } 
+
+.cardbackground {
+    background-color: #01579b;
+}
+
+.aboutMe {
+    font-weight: bold;
+    color: skyblue;
+}
+
+.topPad {
+    padding-top: 5rem;
+}
 
