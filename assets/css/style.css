@@ -4,11 +4,7 @@ p {
 
 .projectImg {
     width: 100%;
-}
-
-.border {
-    border-style: solid;
-    border-color: black;
+    border-radius: 5px;
 }
 
 .name {
