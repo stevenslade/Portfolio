@@ -33,6 +33,13 @@ body {
     padding-top: 5rem;
 }
 
+
+.projectContainer {
+ border-style: solid;
+ border-color: skyblue;
+ border-radius: 5px;
+}
+
 #aboutMeImg {
     border-radius: 8px;
     max-width: 300px;
