@@ -31,7 +31,8 @@ p {
 
 .name {
    font-weight: bold;
-   font-size: 2rem; 
+   font-size: 2rem;
+   margin-left: 10px; 
 }
 
 body {
