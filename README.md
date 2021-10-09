@@ -5,4 +5,4 @@ This porfolio contains a collection of projects I have developed so far as part 
 This link will take you to the deployed version
 https://stevenslade.github.io/Portfolio/
 
-![screenshot of Portfolio](./assets/images/proSS.png)
+![screenshot of Portfolio](./assets/images/ProSS.png)
